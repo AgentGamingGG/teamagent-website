@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Scaling across all platforms-->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> <!--Bebas Font--> 
-    <style>
-        body {margin: 0px 0px;}
-        .navbar {font-family: 'Bebas Neue', cursive; background-color: #272727; margin: 0px 0px; border: 0; padding: 0px 0px; width: 100%; position: sticky;}
-        .nav-link {font-size: 20px;text-decoration: none;color: rgb(255, 255, 255);padding: 16px 0px;margin: 0px 20px;display: inline-block;position: relative;opacity: 0.9;}
-        .nav-link:hover {opacity: 1;}
-        .nav-link::before {transition: 300ms;height: 5px;content: "";position: absolute;background-color: rgb(255, 255, 255);}
-        .nav-link-ltr::before {width: 0%;bottom: 10px;}
-        .nav-link-ltr:hover::before {width: 100%;}
-        .nav-logo{vertical-align: middle; padding: 15px 15px; padding-right: 10px;}
-        .container {position: relative;text-align: center;}
-        .shoplink-img-container {position: absolute;bottom: 20px;left: 20px; opacity: 0.7; transition: 300ms; color: rgba(68, 68, 68, 0.7);}
-        .shoplink-img-container:hover {color: rgba(68, 68, 68, 1);}
-        .bottomnavbar{overflow: hidden;background-color: rgb(77, 77, 77); position: static; bottom: 0; width: 100%;}
-        .bottomnavbar-content{font-family: 'Bebas Neue', cursive; color: white; text-align: center; text-decoration: none; float: left; padding: 20px 5px;}
-    </style>
-</head>
-<body>
-    <div id="navbar" class="navbar">
-        <img class="nav-logo" src="../assets/img/transWhiteCrop.png" width="30px" height="28px" alt="Agent Gaming Logo" draggable="false">
-        <a class="nav-link nav-link-ltr" href="/about" style="float: right;">About Us</a>
-        <a class="nav-link nav-link-ltr" href="/contact" style="float: right;">Contact</a>
-        <a class="nav-link nav-link-ltr" href="/socials" style="float: right;">Socials</a>
-        <a class="nav-link nav-link-ltr" href="/shop.html" style="float: right;">Shop</a>
-        <a class="nav-link nav-link-ltr" href="https://agentgamingesports.com" style="float: right;">Home</a>
-    </div>
-    <div id="content">
-        {{ content }}
-    </div>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Scaling across all platforms-->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> <!--Bebas Font-->
+        <link rel='icon' type="image/png" href="../assets/img/transWhiteCrop.png"> <!--Logo for website-->
+        <style>
+            body {margin: 0px 0px;}
+            .navbar {font-family: 'Bebas Neue', cursive; background-color: #272727; margin: 0px 0px; border: 0; padding: 0px 0px; width: 100%; position: sticky;}
+            .nav-link {font-size: 20px;text-decoration: none;color: rgb(255, 255, 255);padding: 16px 0px;margin: 0px 20px;display: inline-block;position: relative;opacity: 0.9;}
+            .nav-link:hover {opacity: 1;}
+            .nav-link::before {transition: 300ms;height: 5px;content: "";position: absolute;background-color: rgb(255, 255, 255);}
+            .nav-link-ltr::before {width: 0%;bottom: 10px;}
+            .nav-link-ltr:hover::before {width: 100%;}
+            .nav-logo{vertical-align: middle; padding: 15px 15px; padding-right: 10px;}
+            .container {position: relative;text-align: center;}
+            .shoplink-img-container {position: absolute;bottom: 20px;left: 20px; opacity: 0.7; transition: 300ms; color: rgba(68, 68, 68, 0.7);}
+            .shoplink-img-container:hover {color: rgba(68, 68, 68, 1);}
+            .bottomnavbar{overflow: hidden;background-color: rgb(77, 77, 77); position: static; bottom: 0; width: 100%;}
+            .bottomnavbar-content{font-family: 'Bebas Neue', cursive; color: white; text-align: center; text-decoration: none; float: left; padding: 20px 5px;}
+        </style>
+    </head>
+    <body>
+        <div id="navbar" class="navbar">
+            <img class="nav-logo" src="../assets/img/transWhiteCrop.png" width="30px" height="28px" alt="Agent Gaming Logo" draggable="false">
+            <a class="nav-link nav-link-ltr" href="/about" style="float: right;">About Us</a>
+            <a class="nav-link nav-link-ltr" href="/contact" style="float: right;">Contact</a>
+            <a class="nav-link nav-link-ltr" href="/socials" style="float: right;">Socials</a>
+            <a class="nav-link nav-link-ltr" href="/shop.html" style="float: right;">Shop</a>
+            <a class="nav-link nav-link-ltr" href="https://agentgamingesports.com" style="float: right;">Home</a>
+        </div>
+        <div id="content">
+            {{ content }}
+        </div>
 
-    <div id="bottomnav" class="bottomnavbar">
-        <span class="bottomnavbar-content">Agent Gaming</span>
-    </div>
-</body>
+        <div id="bottomnav" class="bottomnavbar">
+            <span class="bottomnavbar-content">Agent Gaming</span>
+        </div>
+    </body>
 </html>
