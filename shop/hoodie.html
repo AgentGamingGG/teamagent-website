@@ -1,5 +1,5 @@
 ---
-title: Hooide
+title: Hoodie
 layout: default
 ---
 <!DOCTYPE html>
@@ -7,36 +7,42 @@ layout: default
     <head>
         <title>Checkout</title>
         <style>
-            .text {background-color: rgb(37, 37, 37); color: white; padding: 3%; text-align: center; font-family: 'Bebas Neue', cursive; font-size: 30px; text-align: center;}
+            .text {background-color: rgb(37, 37, 37); color: white; padding: 3%; text-align: center; font-family: 'Bebas Neue', cursive; font-size: 30px; text-align: center; vertical-align: center; height: 100%;}
             .linktext {color: gray;}
             .parallax-agent-img {background-image: url('../assets/img/agentbanner2.png'); min-height: 300px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
             @media only screen and (max-device-width: 1366px) {.parallax {background-attachment: scroll;}}
-            .container {float: left; width: 50%;}
+            .container {display: inline-block;}
         </style>
     </head>
     <body>
         <div class="parallax-agent-img"></div>
         <div class="text">
-            <div class="container">
-                <p style="font-size: 50px;">In cart: T-Shirt<p><img src="../assets/img/merch/sources/2F3BF2DB-E65E-4884-9959-12D21E2E9758.jpeg" widthh="50%" height="auto">
+            <div class="container" width="70%">
+                <p style="font-size: 50px;">In cart: Hoodie<p><img src="../assets/img/merch/sources/BB732EF4-1880-4207-B670-AEFF6BE0A20A.jpeg" width="40%" height="auto">
             </div>
             <div class="container">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="26UXBRAYRNBWL">
-                    <table>
-                    <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
-                        <option value="XS">XS $10.00 USD</option>
-                        <option value="S">S $10.00 USD</option>
-                        <option value="M">M $10.00 USD</option>
-                        <option value="L">L $10.00 USD</option>
-                        <option value="XL">XL $12.00 USD</option>
-                    </select> </td></tr>
-                    </table>
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>                    
+                <center>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="GZY49362QFX4N">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="COVID-19 May delay shipping">Expect Shipping Delay due to COVID-19</td></tr>
+                        <tr><td><input type="hidden" name="on0" value="Shirt Size">Hoodie Size</td></tr><tr><td><select name="os0">
+                            <option value="XS">XS $20.00 USD</option>
+                            <option value="S">S $20.00 USD</option>
+                            <option value="M">M $20.00 USD</option>
+                            <option value="L">L $20.00 USD</option>
+                            <option value="XL">XL $25.00 USD</option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-large.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><br><br>
+                        <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Buy now with PayPal" />
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                        
+                        
+                </center>                
             </div>
         </div>
         <div class="parallax-agent-img"></div>
