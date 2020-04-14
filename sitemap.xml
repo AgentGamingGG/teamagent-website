@@ -9,28 +9,43 @@
 
 <url>
   <loc>https://agentgamingesports.com/</loc>
-  <lastmod>2020-04-12T00:15:50+00:00</lastmod>
+  <lastmod>2020-04-14T15:47:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://agentgamingesports.com/contact</loc>
-  <lastmod>2020-04-12T00:15:50+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://agentgamingesports.com/about</loc>
-  <lastmod>2020-04-12T00:15:50+00:00</lastmod>
+  <loc>https://agentgamingesports.com/shop</loc>
+  <lastmod>2020-04-14T15:47:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://agentgamingesports.com/sponsors</loc>
-  <lastmod>2020-04-12T00:15:50+00:00</lastmod>
+  <lastmod>2020-04-14T15:47:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://agentgamingesports.com/shop</loc>
-  <lastmod>2020-04-12T00:15:50+00:00</lastmod>
+  <loc>https://agentgamingesports.com/about</loc>
+  <lastmod>2020-04-14T15:47:00+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://agentgamingesports.com/contact</loc>
+  <lastmod>2020-04-14T15:47:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://agentgamingesports.com/shop/tshirt.html</loc>
+  <lastmod>2020-04-14T15:47:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://agentgamingesports.com/shop/hoodie.html</loc>
+  <lastmod>2020-04-14T15:47:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://agentgamingesports.com/shop/combo.html</loc>
+  <lastmod>2020-04-14T15:47:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
