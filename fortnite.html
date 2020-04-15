@@ -24,69 +24,19 @@ layout: default
             .socialsimageLarge {width: auto; height: 40px;border-radius: 15%; padding: 10px; opacity: 1;}
             .socialsimageLarge:hover {opacity: 0.7;}
             .sociallink {font-size: 0; color: rgba(0, 0, 0, 0);}
+            .button {border-radius: 4px;background-color: #1a1a1a;border: none;color: #FFFFFF;text-align: center;font-size: 28px;padding: 20px;width: 400px;transition: all 0.5s;cursor: pointer;margin: 5px;}
+            .button span {cursor: pointer;display: inline-block;position: relative;transition: 0.5s;color: white;font-family: 'Bebas Neue', cursive;}
+            .button span:after {content: '\00bb';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.5s;}
+            .button:hover span {padding-right: 25px;}
+            .button:hover span:after {opacity: 1;right: 0;}
         </style>
     </head>
     <body>
         <div class="parallax-agent-img"></div>
         <div id="owners">
-            <div class="textheader">Owners</div>
-            <center>
-                <div class="ownercontainer" width="100%">
-                    <img src="./assets/img/owners/rad.png" style="display: inline-block;" width="400px" height="400px">
-                    <div class="ownerstext" style="display: inline-block;"><br>
-                        <p class="ownergamertag">Rad</p>
-                        <p class="ownersname">Conrad Thompson</p>
-                        <a href="https://www.instagram.com/radhype/" target="_blank" class="sociallink">
-                            <img class="socialsimageLarge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
-                        </a>
-                        <a href="https://twitter.com/RadFNBR" target="_blank" class="sociallink">
-                            <img class="socialsimageLarge" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
-                        </a>
-                    </div>
-                </div>
-                <div class="ownercontainer" width="100%">
-                    <img src="./assets/img/owners/zerk.png" style="display: inline-block;" width="400px" height="400px">
-                    <div class="ownerstext" style="display: inline-block;"><br>
-                        <p class="ownergamertag">Zerk</p>
-                        <p class="ownersname">Wolf Louis Jean</p>
-                        <a href="https://www.twitch.tv/agentzerk" target="_blank" class="sociallink">
-                            <img class="socialsimageLarge" src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c540.png">
-                        </a>
-                    </div>
-                </div>
-                <div class="ownercontainer" width="100%">
-                    <img src="./assets/img/comingsoon pfp.png" style="display: inline-block;" width="400px" height="400px">
-                    <div class="ownerstext" style="display: inline-block;"><br>
-                        <p class="ownergamertag">twango</p>
-                        <p class="ownersname">James Ding</p>
-                        <a href="https://www.instagram.com/twango.ttv/" target="_blank" class="sociallink">
-                            <img class="socialsimageLarge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
-                        </a>
-                        <a href="https://twitter.com/twitch_twango" target="_blank" class="sociallink">
-                            <img class="socialsimageLarge" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
-                        </a>
-                    </div>
-                </div>
-            </center>
-        </div>
-        <div id="teammanagers">
-            <div class="textheader">Team Managers</div>
-            <center>
-                <div class="ownercontainer" width="100%">
-                    <img src="./assets/img/owners/foxy.png" style="display: inline-block;" width="400px" height="400px">
-                    <div class="ownerstext" style="display: inline-block;"><br>
-                        <p class="ownergamertag">FOXY</p>
-                        <p class="ownersname">Dhruv Gadhvi</p>
-                        <a href="https://www.instagram.com/_i_am_foxy" target="_blank" class="sociallink">
-                            <img class="socialsimageLarge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
-                        </a>
-                        <a href="https://twitch.tv/ag_foxy" target="_blank" class="sociallink">
-                            <img class="socialsimageLarge" src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c540.png">
-                        </a>
-                    </div>
-                </div>
-            </center>
-        </div>
+            <div class="textheader" style="align-content:center">
+                <button class="button"><a href="./owners.html"><span>Owners</span></a></button>
+            </div>
         <div id="proplayer">
             <div class="textheader">Pro Players</div>
             <center>
