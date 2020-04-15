@@ -15,13 +15,15 @@ layout: default
             .overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: 100%;width: 100%;opacity: 0;transition: .5s ease;background-color: rgb(51, 51, 51); border-radius: 15%;}
             .container:hover .overlay {opacity: 1;}
             .text {font-family: 'Bebas Neue', cursive;;color: white;font-size: 30px;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);text-align: center; color: white; font-size: 15px;}
-            .socialsimage {width: 20x; height: 20px; border-radius: 15%; padding: 2px;}
+            .smallgamertag {margin-bottom: 10px;}
+            .socialsimage {width: 20x; height: 20px; border-radius: 15%; padding: 0px; margin: 0px}
             .ownerstext {width: 700px; height: 320px; padding: 40px; margin: 0px;}
             .ownercontainer {display: flex; justify-content: center; flex-direction: row; color: white; background-color: rgb(37, 37, 37); font-family: 'Bebas Neue'; padding-bottom: 30px;}
             .ownergamertag {font-size: 40px;}
             .ownersname {font-size: 30px;}
             .socialsimageLarge {width: 40px; height: 40px;border-radius: 15%; padding: 10px; opacity: 1;}
             .socialsimageLarge:hover {opacity: 0.7;}
+            .sociallink {font-size: 0; color: rgba(0, 0, 0, 0);}
         </style>
     </head>
     <body>
@@ -34,10 +36,10 @@ layout: default
                     <div class="ownerstext" style="display: inline-block;"><br>
                         <p class="ownergamertag">Rad</p>
                         <p class="ownersname">Conrad Thompson</p>
-                        <a href="https://www.instagram.com/radhype/" target="_blank">
-                            <img class="socialsimageLarge" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                        <a href="https://www.instagram.com/radhype/" target="_blank" class="sociallink">
+                            <img class="socialsimageLarge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                         </a>
-                        <a href="https://twitter.com/RadFNBR" target="_blank">
+                        <a href="https://twitter.com/RadFNBR" target="_blank" class="sociallink">
                             <img class="socialsimageLarge" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
                         </a>
                     </div>
@@ -47,7 +49,7 @@ layout: default
                     <div class="ownerstext" style="display: inline-block;"><br>
                         <p class="ownergamertag">Zerk</p>
                         <p class="ownersname">Wolf Louis Jean</p>
-                        <a href="https://www.twitch.tv/agentzerk" target="_blank">
+                        <a href="https://www.twitch.tv/agentzerk" target="_blank" class="sociallink">
                             <img class="socialsimageLarge" src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c540.png">
                         </a>
                     </div>
@@ -57,10 +59,10 @@ layout: default
                     <div class="ownerstext" style="display: inline-block;"><br>
                         <p class="ownergamertag">twango</p>
                         <p class="ownersname">James Ding</p>
-                        <a href="https://www.instagram.com/twango.ttv/" target="_blank">
-                            <img class="socialsimageLarge" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                        <a href="https://www.instagram.com/twango.ttv/" target="_blank" class="sociallink">
+                            <img class="socialsimageLarge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                         </a>
-                        <a href="https://twitter.com/twitch_twango" target="_blank">
+                        <a href="https://twitter.com/twitch_twango" target="_blank" class="sociallink">
                             <img class="socialsimageLarge" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
                         </a>
                     </div>
@@ -71,14 +73,14 @@ layout: default
             <div class="textheader">Team Managers</div>
             <center>
                 <div class="ownercontainer" width="100%">
-                    <img src="./assets/img/comingsoon pfp.png" style="display: inline-block;" width="400px" height="400px">
+                    <img src="./assets/img/owners/foxy.png" style="display: inline-block;" width="400px" height="400px">
                     <div class="ownerstext" style="display: inline-block;"><br>
                         <p class="ownergamertag">FOXY</p>
                         <p class="ownersname">Dhruv Gadhvi</p>
-                        <a href="https://www.instagram.com/_i_am_foxy" target="_blank">
-                            <img class="socialsimageLarge" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                        <a href="https://www.instagram.com/_i_am_foxy" target="_blank" class="sociallink">
+                            <img class="socialsimageLarge" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                         </a>
-                        <a href="https://twitch.tv/ag_foxy" target="_blank">
+                        <a href="https://twitch.tv/ag_foxy" target="_blank" class="sociallink">
                             <img class="socialsimageLarge" src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c540.png">
                         </a>
                     </div>
@@ -91,9 +93,9 @@ layout: default
                     <div class="container" id="keaton">
                         <img src="https://cdn.discordapp.com/avatars/492427536324624406/28566171e9b7013b92cbab706b592d45.webp" class="image">
                         <div class="overlay">
-                            <div class="text">Keaton<br><br>
+                            <div class="text"><p class="smallgamertag">Keaton</p>
                                 <a href="https://www.instagram.com/agent.keaton" target="_blank">
-                                    <img class="socialsimage" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                                    <img class="socialsimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                                 </a>
                                 <a href="https://twitter.com/keatonlul" target="_blank">
                                     <img class="socialsimage" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
@@ -107,9 +109,9 @@ layout: default
                     <div class="container" id="static">
                         <img src="https://cdn.discordapp.com/avatars/478833575882653696/eceff8d460398714b993d6cd3230061e.webp" class="image">
                         <div class="overlay">
-                            <div class="text">Static<br>Yousef<br><br>
+                            <div class="text"><p class="smallgamertag">Static<br>Yousef</p>
                                 <a href="https://www.instagram.com/ag_static/" target="_blank">
-                                    <img class="socialsimage" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                                    <img class="socialsimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                                 </a>
                                 <a href="https://twitter.com/StaticOnlyWins" target="_blank">
                                     <img class="socialsimage" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
@@ -123,7 +125,7 @@ layout: default
                     <div class="container" id="entrpy">
                         <img src="https://cdn.discordapp.com/avatars/659942190868594713/61a6e1c54ee401ffb3d38442ac8c0d34.webp" class="image">
                         <div class="overlay">
-                            <div class="text">entrpy<br>tristan<br><br>
+                            <div class="text"><p class="smallgamertag">entrpy<br>tristan</p>
                                 <a href="https://www.twitch.tv/vyletFN" target="_blank">
                                     <img class="socialsimage" src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c540.png">
                                 </a>
@@ -133,9 +135,9 @@ layout: default
                     <div class="container" id="vlqhz">
                         <img src="https://cdn.discordapp.com/avatars/675557757922967553/aa827de876b1a6938f534829e9ee2da9.webp" class="image">
                         <div class="overlay">
-                            <div class="text">vlq<br>Blake<br><br>
+                            <div class="text"><p class="smallgamertag"></p>vlq<br>Blake</p>
                                 <a href="https://www.instagram.com/vlqhz" target="_blank">
-                                    <img class="socialsimage" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                                    <img class="socialsimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                                 </a>
                                 <a href="https://twitter.com/vlqhz" target="_blank">
                                     <img class="socialsimage" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
@@ -146,9 +148,9 @@ layout: default
                     <div class="container" id="taskenn">
                         <img src="https://cdn.discordapp.com/avatars/588756483655729177/6856ba1b48eff4de0296a25f0d9c9d7d.webp" class="image">
                         <div class="overlay">
-                            <div class="text">taskenn<br>Kade<br><br>
+                            <div class="text"><p class="smallgamertag"></p>taskenn<br>Kade</p>
                                 <a href="https://www.instagram.com/taskenn1" target="_blank">
-                                    <img class="socialsimage" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                                    <img class="socialsimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                                 </a>
                                 <a href="https://twitter.com/taskenn1" target="_blank">
                                     <img class="socialsimage" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
@@ -169,7 +171,7 @@ layout: default
                             <div class="overlay">
                                 <div class="text">pixxyy<br>Tyler<br><br>
                                     <a href="https://www.instagram.com/pixxyyfn" target="_blank">
-                                        <img class="socialsimage" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                                        <img class="socialsimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                                     </a>
                                 </div>
                             </div>
@@ -184,7 +186,7 @@ layout: default
                             <div class="overlay">
                                 <div class="text">Cooljared<br>Jared<br><br>
                                     <a href="https://www.instagram.com/officialcooljared" target="_blank">
-                                        <img class="socialsimage" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                                        <img class="socialsimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                                     </a>
                                     <a href="https://twitter.com/cooljaredfn" target="_blank">
                                         <img class="socialsimage" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
@@ -205,7 +207,7 @@ layout: default
                                 <div class="overlay">
                                     <div class="text">BOLT<br>Nasir<br><br>
                                         <a href="https://www.instagram.com/fnbolty" target="_blank">
-                                            <img class="socialsimage" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+                                            <img class="socialsimage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
                                         </a>
                                         <a href="https://twitter.com/fnbolty" target="_blank">
                                             <img class="socialsimage" src="https://pluspng.com/img-png/twitter-png-logo-twitter-logo-vector-png-clipart-library-518.png">
