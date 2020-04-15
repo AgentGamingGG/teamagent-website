@@ -7,10 +7,9 @@ layout: default
     <head>
         <title>Owners</title>
         <style>
-            .textheader {font-family: 'Bebas Neue'; background-color: rgb(37, 37, 37); color: white;padding: 25px; text-align: center; font-size: 50px;}
-            .parallax-agent-img {background-image: url('./assets/img/agentbanner2.png'); min-height: 300px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+            .textheader {font-family: 'Bebas Neue'; color: white;padding: 25px; text-align: center; font-size: 50px;}
             @media only screen and (max-device-width: 1366px) {.parallax {background-attachment: scroll;}}
-            .container {position: relative; display: inline-block; background-color: rgb(37, 37, 37);}
+            .container {position: relative; display: inline-block;}
             .image {display: block;width: 100%;height: auto; border-radius: 15%;}
             .overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: 100%;width: 100%;opacity: 0;transition: .5s ease;background-color: rgb(51, 51, 51); border-radius: 15%;}
             .container:hover .overlay {opacity: 1;}
@@ -18,16 +17,16 @@ layout: default
             .smallgamertag {margin-bottom: 10px;}
             .socialsimage {width: 20x; height: 20px; border-radius: 15%; padding: 0px; margin: 0px}
             .ownerstext {width: 700px; height: 320px; padding: 40px; margin: 0px;}
-            .ownercontainer {display: flex; justify-content: center; flex-direction: row; color: white; background-color: rgb(37, 37, 37); font-family: 'Bebas Neue'; padding-bottom: 30px;}
+            .ownercontainer {display: flex; justify-content: center; flex-direction: row; color: white; font-family: 'Bebas Neue'; padding-bottom: 30px;}
             .ownergamertag {font-size: 40px;}
             .ownersname {font-size: 30px;}
             .socialsimageLarge {width: auto; height: 40px;border-radius: 15%; padding: 10px; opacity: 1;}
             .socialsimageLarge:hover {opacity: 0.7;}
             .sociallink {font-size: 0; color: rgba(0, 0, 0, 0);}
+            .agentbg {background-image: url('./assets/img/agentbanner.png');background-attachment: fixed;}
         </style>
     </head>
-    <body>
-        <div class="parallax-agent-img"></div>
+    <body class="agentbg">
         <div id="owners">
             <div class="textheader">Owners</div>
             <center>
@@ -69,7 +68,7 @@ layout: default
                 </div>
             </center>
         </div>
-        <div id="teammanagers">
+        <div id="teammanagers" style="padding-bottom: 50px;">
             <div class="textheader">Team Managers</div>
             <center>
                 <div class="ownercontainer" width="100%">
@@ -86,6 +85,5 @@ layout: default
                     </div>
                 </div>
             </center>
-        <div class="parallax-agent-img"></div>
     </body>
 </html>
