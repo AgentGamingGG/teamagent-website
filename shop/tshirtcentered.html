@@ -1,0 +1,57 @@
+---
+title: TShirt
+layout: default
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Checkout</title>
+        <style>
+            .text {background-color: rgb(37, 37, 37); color: white; padding: 3%; text-align: center; font-family: 'Bebas Neue', cursive; font-size: 30px; text-align: center; vertical-align: center; height: 100%;}
+            .linktext {color: gray;}
+            .parallax-agent-img {background-image: url('../assets/img/agentbanner2.png'); min-height: 300px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+            @media only screen and (max-device-width: 1366px) {.parallax {background-attachment: scroll;}}
+            .container {display: inline-block;}
+        </style>
+    </head>
+    <body>
+        <div class="parallax-agent-img"></div>
+        <div class="text">
+            <div class="container" width="70%">
+                <p style="font-size: 50px;">In cart: T-Shirt<p><img src="../assets/img/merch/sources/FC827331-A3A2-4E96-8EE0-B7320AF1328C.jpeg" width="40%" height="auto">
+            </div>
+            <div class="container">
+                <center>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="83Q4QGKA8LQ6G">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                            <option value="AXS">AXS $10.00 USD</option>
+                            <option value="AS">AS $10.00 USD</option>
+                            <option value="AM">AM $10.00 USD</option>
+                            <option value="AL">AL $10.00 USD</option>
+                            <option value="AXL">AXL $12.00 USD</option>
+                            <option value="YXS">YXS $10.00 USD</option>
+                            <option value="YS">YS $10.00 USD</option>
+                            <option value="YM">YM $10.00 USD</option>
+                            <option value="YL">YL $10.00 USD</option>
+                            <option value="YXL">YXL $11.00 USD</option>
+                        </select> </td></tr>
+                        <tr><td><input type="hidden" name="on1" value="Color">Color</td></tr><tr><td><select name="os1">
+                            <option value="Black">Black </option>
+                            <option value="White">White </option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-large.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><br><br>
+                        <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Buy now with PayPal" />
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                        
+                </center>                
+            </div>
+        </div>
+        <div class="parallax-agent-img"></div>
+    </body>
+</html>
