@@ -5,6 +5,7 @@ var twitchfollow = false;
 var unlocked = 0;
 var amountunlock = 3;
 
+const button = document.getElementById('followproceed');
 function twitterfollowclick() {
     var twitterfollow = true;
     console.log("Twitter Unlocked");
@@ -35,5 +36,12 @@ function twitchfollowclick() {
     unlocked++;
     if (unlocked == amountunlock) {
         console.log("Unlocked")
+    }
+};
+function nextpage() {
+    if (unlocked == amountunlock) {
+        window.open('https://agentgamingesports.com/apply/step-id-2aeF4d-4a','_blank');
+    } else {
+        document.getElementById("spanbuttonerror").style.display = "block";
     }
 };
