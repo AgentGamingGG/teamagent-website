@@ -1,0 +1,6 @@
+.followbtn {
+    opacity: 0.8; font-size: 0px; margin: 40px;
+}
+.followbtn:hover {
+    opacity: 1;
+}
