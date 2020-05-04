@@ -4,3 +4,6 @@
 .followbtn:hover {
     opacity: 1;
 }
+.header {
+    font-size: 30px; text-decoration: none; text-emphasis: none; padding: 5%;
+}
