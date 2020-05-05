@@ -17,6 +17,7 @@ layout: default
             .btn {background-color: #4CAF50;color: white;padding: 12px;margin: 10px 0;border: none;width: 50%;border-radius: 3px;cursor: pointer;font-size: 17px;}
             .btn:hover {background-color: #45a049;}
             label {font-size: 20px; padding-top: 10px; padding-bottom: 10px;}
+            select {width: 100%;margin-bottom: 20px;padding: 12px;border: 1px solid #ccc;border-radius: 3px; width: 40%;}
         </style>
         <link rel="stylesheet" type="text/css" href="./assets/css/apply.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -36,6 +37,25 @@ layout: default
                         <label for="text"><i><img src="../assets/img/discordblue.png" width="25px" height="25px" style="vertical-align: middle;"></i> Discord</label><br>
                         <input type="text" id="text" name="text" placeholder="twango#8657"><br>
                         <label for="fname">Applying As</label><br>
+                        <select id="applying" name="applying">
+                            <option value="Content">Content Creator</option>
+                            <option value="Pro">Professional Team</option>
+                            <option value="Comp">Competitive Team</option>
+                            <option value="Discord">Discord Mod</option>
+                            <option value="Manager">Team Manager</option>
+                          </select><br>
+                        <label for="text">About Yourself</label><br>
+                        <input type="text" id="text" name="text" placeholder="Who are you? Why should accept you?" style="height: 50px;"><br>
+                        <label for="fname">Region</label><br>
+                        <select id="region" name="region">
+                            <option value="NAW">NAW</option>
+                            <option value="NAE">NAE</option>
+                            <option value="EU">EU</option>
+                            <option value="ASIA">ASIA</option>
+                            <option value="OCE">OCE</option>
+                          </select><br>
+                          <label for="text">Stats</label><br>
+                        <input type="text" id="text" name="text" placeholder="Earnings from Official Fortnite Tournaments, FN Tracker." style="height: 50px;"><br>
                         <button type="submit" class="btn">Send</button>
                     </form>
                 </div>
