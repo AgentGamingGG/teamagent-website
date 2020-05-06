@@ -39,7 +39,7 @@ function twitchfollowclick() {
     }
 };
 function nextpage() {
-    if (unlocked < amountunlock) {
+    if (unlocked >= amountunlock) {
         window.open('https://agentgamingesports.com/apply/step-id-2aeF4d-4a','_blank');
     } else {
         document.getElementById("spanbuttonerror").style.display = "block";
