@@ -1,5 +1,7 @@
 body {
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 .socialnavbar {
     width: 100%;
@@ -9,14 +11,6 @@ body {
     transition: 100ms;
     padding: 0;
     margin: 0;
-}
-.twitchsocial {
-    height: 15px;
-    width: 15px;
-}
-
-@media (max-width:930px) {
-    .socialnavbar {display: none}
 }
 
 /* FA (Social Icons) */
