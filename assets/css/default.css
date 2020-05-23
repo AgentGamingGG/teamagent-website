@@ -1,0 +1,31 @@
+.socialnavbar {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border: 1px;
+    border-color: gray;
+    color: white;
+    transition: 100ms;
+}
+.twitchsocial {
+    height: 15px;
+    width: 15px;
+}
+
+@media (max-width:930px) {
+    .socialnavbar {display: none}
+}
+
+/* FA (Social Icons) */
+.fa {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    transition: 200ms;
+    float: right;
+    padding: 5px;
+    margin: 8px;
+}
+.fa:hover {
+    color: #a83232;
+}

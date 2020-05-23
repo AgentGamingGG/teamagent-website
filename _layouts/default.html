@@ -2,7 +2,10 @@
 <html lang="en-US">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Scaling across all platforms-->
-        <link rel='icon' type="image/png" href="/assets/img/transBlack.png"> <!--Logo for website-->
+        <link rel='icon' type="image/png" href="../assets//PNG/favicon.png"> <!--Logo for website-->
+        <link rel="stylesheet" href="../assets/css/default.css"> <!--Default CCS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../assets/js/default.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163392848-1"></script>
         <script>
@@ -12,29 +15,12 @@
 
             gtag('config', 'UA-163392848-1');
         </script>
-
     </head>
     <body>
-        <div id="navbar" class="navbar">
-            <a href="https://agentgamingesports.com/"><img class="nav-logo" src="/assets/img/transWhiteCrop.png" width="30px" height="28px" alt="Agent Gaming Logo" draggable="false"></a>
-            <a href="https://paypal.me/agentgamingesports" target="_blank"><img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" width="23px" height="auto" class="paypal" alt="Paypal Donation" title="Paypal Donation"></a>
-            <a href="https://discord.gg/6p4J6pt" target="_blank"><img class="discord " src="/assets/img/discordblue.png" height="23px" width="23px" title="Join the Discord"></a>
-            <a class="fa fa-twitter" href="https://twitter.com/agentggs" target="_blank" title="Twitter"></a>
-            <a class="fa fa-instagram" href="https://www.instagram.com/agent.ggs/" target="_blank" title="Instagram"></a>
-            <a href="https://www.youtube.com/c/agentgamingesports" target="_blank"><img class="youtube" src="/assets/img/youtube.png" height="15px" width="20px" title="Youtube"></a>
-            
-            <a class="nav-link nav-link-ltr" href="https://agentgamingesports.com">Home</a>
-            <a class="nav-link nav-link-ltr" href="/shop">Shop</a>
-            <a class="nav-link nav-link-ltr" href="/sponsors">Sponsors</a>
-            <a class="nav-link nav-link-ltr" href="/about">About Us</a>
-            <a class="nav-link nav-link-ltr" href="/contact">Contact</a>       
-                        
+        <div class="socialnavbar">
+            <a href="https://twitch.tv/agentggs" target="_blank" class="fa fa-twitch"></a>
+            <a href="https://twitch.tv/agentggs" target="_blank" class="fa fa-youtube"></a>
         </div>
-        <div id="content">
-            {{ content }}
-        </div>
-        <div id="bottomnav" class="bottomnavbar">
-            <span class="bottomnavbar-content">&copy;Agent Gaming Esports 2020. Agent Gaming is not affiliated with Epic Games, Inc., Riot Games, Respawn Entertainment, Ubisoft Divertissements Inc., or Blizzard Entertainment, Inc. *Merch is on pre-order. Est. Delivery should be around fall.</span><br>
-        </div>
+        
     </body>
 </html>
