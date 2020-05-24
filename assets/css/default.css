@@ -48,7 +48,38 @@ body {
     transition: 100ms;
 }
 .navlink:hover {
-    color: #a83232;
+    color: #e31c25;
+}
+#content {
+    background-color: #161616;
+}
+.bottomnav {
+    bottom: 0;
+    background-image: url('../navbar/bottomnav.webp');
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 20px;
+    height: 20%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+    margin: 0px;
+}
+.bottomcontent {
+    width: 30%;
+    height: 400px;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bottomcontent a {
+    text-decoration: none;
+    color: white;
+}
+.header {
+    padding: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
 }
 /* FA (Social Icons) */
 .fa {
