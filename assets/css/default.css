@@ -125,8 +125,19 @@ body {
         margin-left: 20px;
     }
 }
+@media (max-width: 730px) {
+    #logonavbar {
+        display: none;
+    }
+}
 @media (max-width: 600px) {
     #contact {
         display: none;
+    }
+    .navlink {
+        font-size: 20px;
+    }
+    .header {
+        font-size: 20px;
     }
 }
