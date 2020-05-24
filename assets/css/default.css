@@ -65,7 +65,7 @@ body {
     font-family: 'Bebas Neue', cursive;
     color: white;
     font-size: 20px;
-    height: 20%;
+    height: calc(20% + 100px);
     background-size: cover;
     background-position: center;
     background-repeat: repeat-x;
