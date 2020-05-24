@@ -113,3 +113,12 @@ body {
         display: none;
     }
 }
+@media (max-width: 1000px) {
+    .navlogo {
+        height: 70px;
+        width: 70px;
+    }
+    #navdescrip {
+        display: none;
+    }
+}
