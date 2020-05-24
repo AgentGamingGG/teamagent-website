@@ -1,5 +1,6 @@
 html {
     overflow: scroll;
+    overflow-y: none;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -57,9 +58,6 @@ body {
 }
 .navlink:hover {
     color: #e31c25;
-}
-#content {
-    background-color: #161616;
 }
 .bottomnav {
     bottom: 0;

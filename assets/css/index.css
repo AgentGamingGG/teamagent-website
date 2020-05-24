@@ -1,5 +1,60 @@
-.headertitle {
-    align-content: center;
-    border: 2px;
-    border-radius: 5px;
+body {
+    width: 100%;
+    height: auto;
+    background-image: repeating-linear-gradient(rgb(48, 48, 48),rgb(99, 0, 0));
+}
+.articlebox {
+    margin: 0 auto;
+    background-color: rgb(58, 58, 58);
+    background-image: url('../backdrops/standardbackdrop.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 900px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+.innerarticle {
+    width: calc(50% - 70px);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    padding: 30px;
+}
+#twitterfollowbutton {
+    width: 200px;
+    height: auto;
+    opacity: 0.85;
+    transition: 100ms;
+}
+#twitterfollowbutton:hover {
+    opacity: 1;
+}
+#newsheader {
+    padding: 16px;
+    margin-top: 5px;
+    font-size: 27px;
+}
+#articletitle {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#articletitlemini {
+    color: #e31c25;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 14px;
 }
