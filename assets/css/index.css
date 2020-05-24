@@ -36,7 +36,6 @@ body {
     height: auto;
     opacity: 0.85;
     transition: 100ms;
-    vertical-align: bottom;
 }
 #twitterfollowbutton:hover {
     opacity: 1;
@@ -88,4 +87,10 @@ body {
 #articledescrip {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+}
+
+@media (max-width: 1660px) {
+    #socials {
+        display: none;
+    }
 }
