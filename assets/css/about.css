@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    background-image: repeating-linear-gradient(rgb(29, 29, 29),rgb(34, 0, 0));
+}
+.articlebox {
+    margin: 0 auto;
+    background-color: rgb(58, 58, 58);
+    background-image: url('../backdrops/standardbackdrop.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 900px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    margin-top: 30px;
+}
