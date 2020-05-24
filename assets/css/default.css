@@ -81,6 +81,12 @@ body {
     font-family: 'Bebas Neue', cursive;
     font-size: 26px;
 }
+.bottomnavlink {
+    font-size: 20px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+}
 /* FA (Social Icons) */
 .fa {
     text-decoration: none;
