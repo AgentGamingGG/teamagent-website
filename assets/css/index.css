@@ -88,7 +88,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
-
 @media (max-width: 1100px) {
     #twitchArticle {
         display: none;
