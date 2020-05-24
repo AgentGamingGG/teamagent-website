@@ -57,3 +57,30 @@ body {
     margin-left: 0px;
     font-size: 14px;
 }
+.teamimage {
+    border-radius: 5px;
+    display: inline-block;
+    width: 49.5%;
+    opacity: 1;
+    transition: 300ms;
+}
+.gameimage {
+    border-radius: 5px;
+}
+#valorant {
+    background-image: url('../games/valorant.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fortnite {
+    background-image: url('../games/fortnite.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.internalimage {
+    opacity: 0;
+    transition: 200ms;
+}
+.internalimage:hover {
+    opacity: 1;
+}
