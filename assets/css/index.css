@@ -90,7 +90,7 @@ body {
 }
 
 @media (max-width: 1100px) {
-    #twitch {
+    #twitchArticle {
         display: none;
     }
 }
