@@ -93,3 +93,8 @@ body {
         display: none;
     }
 }
+@media (max-width: 730px) {
+    #twitterTimeline {
+        display: none;
+    }
+}
