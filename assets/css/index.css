@@ -36,6 +36,7 @@ body {
     height: auto;
     opacity: 0.85;
     transition: 100ms;
+    vertical-align: bottom;
 }
 #twitterfollowbutton:hover {
     opacity: 1;
