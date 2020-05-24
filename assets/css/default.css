@@ -110,7 +110,7 @@ body {
 #logonavbar {
     display: inline-block; 
     margin-left: calc(5% + 40px);
-    margin-right: calc (6% + 40px); 
+    margin-right: calc(6% + 40px); 
 }
 /* Reactive Elements*/
 @media (max-width: 1660px) {
