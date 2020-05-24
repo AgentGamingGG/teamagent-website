@@ -1,6 +1,6 @@
 html {
     overflow: scroll;
-    overflow-y: none;
+    overflow-y: hidden;
 }
 ::-webkit-scrollbar {
     width: 0px;
