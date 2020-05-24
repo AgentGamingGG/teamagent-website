@@ -80,3 +80,6 @@ body {
     width: 49%;
     display: inline-block;
 }
+#twitch-embed {
+    width: 100%;
+}
