@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: auto;
-    background-image: repeating-linear-gradient(rgb(48, 48, 48),rgb(99, 0, 0));
+    background-image: repeating-linear-gradient(rgb(48, 48, 48),rgb(34, 0, 0));
 }
 .articlebox {
     margin: 0 auto;
