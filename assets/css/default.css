@@ -107,3 +107,9 @@ body {
 .fa:hover {
     color: #ff2c2c;
 }
+/* Reactive Elements*/
+@media (max-width: 1660px) {
+    #socials {
+        display: none;
+    }
+}
