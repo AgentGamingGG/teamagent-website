@@ -80,6 +80,7 @@ body {
     width: 49%;
     display: inline-block;
 }
-#twitch-embed {
+.twitchembed {
+    height: 100%;
     width: 100%;
 }
