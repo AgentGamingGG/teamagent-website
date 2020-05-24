@@ -107,6 +107,10 @@ body {
 .fa:hover {
     color: #ff2c2c;
 }
+#logonavbar {
+    display: inline-block; 
+    margin-left: calc(5% + 40px); 
+}
 /* Reactive Elements*/
 @media (max-width: 1660px) {
     #socials {
@@ -116,6 +120,9 @@ body {
 @media (max-width: 1000px) {
     #navdescrip {
         display: none;
+    }
+    #logonavbar {
+        margin-left: 20px;
     }
 }
 @media (max-width: 600px) {
