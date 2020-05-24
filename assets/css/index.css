@@ -22,6 +22,7 @@ body {
 .container {
     margin: 0px;
     padding: 0px;
+    position: relative;
 }
 .innerarticle {
     width: calc(50% - 70px);
@@ -57,30 +58,25 @@ body {
     margin-left: 0px;
     font-size: 14px;
 }
-.teamimage {
-    border-radius: 5px;
-    display: inline-block;
-    width: 49.5%;
-    opacity: 1;
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
     transition: 300ms;
+}
+.container:hover .overlay {
+    opacity: 1;
 }
 .gameimage {
     border-radius: 5px;
+    width: 100%;
 }
-#valorant {
-    background-image: url('../games/valorant.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#fortnite {
-    background-image: url('../games/fortnite.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.internalimage {
-    opacity: 0;
-    transition: 200ms;
-}
-.internalimage:hover {
-    opacity: 1;
+#gameimage {
+    width: 49%;
+    display: inline-block;
 }
