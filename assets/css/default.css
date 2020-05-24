@@ -118,3 +118,8 @@ body {
         display: none;
     }
 }
+@media (max-width: 600px) {
+    #contact {
+        display: none;
+    }
+}
