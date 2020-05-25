@@ -127,6 +127,9 @@ body {
     #subscribe {
         display: none;
     }
+    #teams {
+        margin-bottom: 40px;
+    }
 }
 @media (max-width: 730px) {
     #twitterTimeline {
