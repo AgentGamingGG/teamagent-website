@@ -19,3 +19,23 @@ body {
     text-align: center;
     margin-top: 30px;
 }
+.container {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+#newsheader {
+    padding: 16px;
+    margin-top: 15px;
+    font-size: 27px;
+}
+.innerarticle {
+    margin: 20px auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    text-align: center;
+}
+#emaillink {
+    text-decoration: none;
+    color: #e31c25;
+}
