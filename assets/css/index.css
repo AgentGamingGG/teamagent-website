@@ -124,12 +124,31 @@ body {
     #twitchArticle {
         display: none;
     }
-    #subscribearticle {
+    #subscribe {
         display: none;
     }
 }
 @media (max-width: 730px) {
     #twitterTimeline {
         display: none;
+    }
+}
+@media (max-width: 725px) {
+    .innerarticle {
+        padding: 10px;
+        width: 90%;
+    }
+    #twitterfollowbutton {
+        display: none;
+    }
+}
+@media (max-width: 465px) {
+    .articletitle {
+        font-size: 25px;
+    }
+}
+@media (max-width: 360px) {
+    .articletitle {
+        font-size: 20px;
     }
 }
