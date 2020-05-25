@@ -112,6 +112,13 @@ body {
     margin-left: calc(5% + 40px);
     margin-right: calc(6% + 40px); 
 }
+#socials a {
+   color: white;
+   transition: 100ms; 
+}
+#socials a:hover {
+    color: #ff2c2c;
+}
 /* Reactive Elements*/
 @media (max-width: 1660px) {
     #socials {
