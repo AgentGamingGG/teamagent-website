@@ -5,7 +5,7 @@ body {
 .articlebox {
     margin: 0 auto;
     background-color: rgb(58, 58, 58);
-    background-image: url('../backdrops/standardbackdrop.webp');
+    background-image: url('../backdrops/standardbackdrop.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -94,7 +94,7 @@ body {
     border-radius: 3px;
     background-color: none;
     padding: 10px;
-    background-image: url('../backdrops/standardbackdrop.webp');
+    background-image: url('../backdrops/standardbackdrop.png');
     font-family: 'Lato', sans-serif;
     width: 277px;
     color: white;

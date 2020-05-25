@@ -28,7 +28,7 @@ body {
 .navbar {
     width: 100%;
     height: auto;
-    background-image: url('../navbar/navbarback.webp');
+    background-image: url('../navbar/navbarback.png');
     font-family: 'Bebas Neue', cursive;
     color: white;
     padding: 0;
@@ -61,7 +61,7 @@ body {
 }
 .bottomnav {
     bottom: 0;
-    background-image: url('../navbar/bottomnav.webp');
+    background-image: url('../navbar/bottomnav.png');
     font-family: 'Bebas Neue', cursive;
     color: white;
     font-size: 20px;
