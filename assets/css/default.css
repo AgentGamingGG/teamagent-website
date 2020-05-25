@@ -107,6 +107,11 @@ body {
 .fa:hover {
     color: #ff2c2c;
 }
+#nav3bar {
+    float: left;
+    display: none;
+}
+/* FA OVER*/
 #logonavbar {
     display: inline-block; 
     margin-left: calc(5% + 40px);
@@ -118,6 +123,7 @@ body {
 }
 #socials a:hover {
     color: #ff2c2c;
+
 }
 /* Reactive Elements*/
 @media (max-width: 1660px) {
@@ -148,5 +154,19 @@ body {
     }
     .header {
         font-size: 20px;
+    }
+}
+@media (max-width: 525px) {
+    .navlink {
+        margin: 10px;
+        margin-bottom: 10px;
+        margin-bottom: 10px;
+        width:100%;
+    }
+    .navbar {
+        display: none;
+    }
+    #nav3bar {
+        display: block;
     }
 }
