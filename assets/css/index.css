@@ -96,8 +96,7 @@ body {
     padding: 10px;
     background-image: url('../backdrops/standardbackdrop.webp');
     font-family: 'Lato', sans-serif;
-    min-width: 299px;
-    max-width: 300px;
+    width: 277px;
     color: white;
     outline: none;
     text-align: center;
@@ -108,8 +107,7 @@ body {
 }
 #sub-button {
     margin: 20px;
-    min-width: 299px;
-    max-width: 300px;
+    width: 300px;
     background-color: rgba(255, 255, 255, 0);
     color: white;
     padding: 10px;
