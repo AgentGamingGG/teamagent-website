@@ -124,6 +124,9 @@ body {
     #twitchArticle {
         display: none;
     }
+    #subscribearticle {
+        display: none;
+    }
 }
 @media (max-width: 730px) {
     #twitterTimeline {
