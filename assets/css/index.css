@@ -123,11 +123,12 @@ body {
     width: 100%;
     min-height: 600px;
     margin: 0px;
+
 }
 #applyarticle {
     background-image: url('../others/fortnite.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 /* Reactive Elements */
