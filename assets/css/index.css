@@ -183,6 +183,12 @@ body {
     #twitterfollowbutton {
         display: none;
     }
+    .mainarticletitle {
+        font-size: 40px;
+    }
+    .mainarticletitlemini {
+        font-size: 20px;
+    }
 }
 @media (max-width: 465px) {
     .articletitle {
