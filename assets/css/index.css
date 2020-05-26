@@ -101,6 +101,7 @@ body {
     outline: none;
     text-align: center;
     font-size: 15px;
+    background-attachment: fixed;
 }
 #subscribe {
     margin-bottom: 40px;
@@ -118,7 +119,17 @@ body {
     background-color: rgba(255, 255, 255, 0);
     color: white;
 }
-
+.mainarticle {
+    width: 100%;
+    min-height: 600px;
+    margin: 0px;
+}
+#applyarticle {
+    background-image: url('../others/fortnite.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 /* Reactive Elements */
 @media (max-width: 1100px) {
     #twitchArticle {
