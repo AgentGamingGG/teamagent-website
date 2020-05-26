@@ -130,6 +130,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    max-height: 600px;
 }
 .mainarticletitle {
     color: white;
