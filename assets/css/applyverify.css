@@ -65,4 +65,5 @@ body {
 }
 #proceed:hover {
     background-color: #c0161e;
+    cursor: pointer;
 }
