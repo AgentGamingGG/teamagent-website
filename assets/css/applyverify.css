@@ -18,7 +18,7 @@ body {
     width: 70%;
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .container {
     margin: 0px;
@@ -29,27 +29,40 @@ body {
     font-size: 30px;
 }
 .applybutton {
-    background-color: #e31c26;
-    padding: 20px;
     margin: 20px auto;
     border-radius: 5px;
     transition: 200ms;
     display: block;
-    width: 20%;
     text-align: center;
     color: white;
     font-size: 23px;
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
+    opacity: 0.8;
+    transition: 200ms;
 }
 .applybutton:hover {
-    background-color: #8d1218;
+    opacity: 1;
 }
 #staff {
     font-size: 20px;
+}
+#error {
+    margin: 10px;
 }
 #proceed {
     outline: none;
     background-color: #e31c26;
     border-radius: 5px;
+    border: none;
+    width: 20%;
+    height: 5%;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    transition: 200ms;
+    margin-bottom: 20px;
+}
+#proceed:hover {
+    background-color: #c0161e;
 }
