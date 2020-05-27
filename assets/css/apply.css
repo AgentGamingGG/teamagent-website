@@ -17,8 +17,8 @@ body {
     font-size: 20px;
     width: 70%;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .container {
     margin: 0px;
@@ -26,40 +26,25 @@ body {
     position: relative;
 }
 #newsheader {
-    font-size: 40px;
+    font-size: 30px;
 }
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 300ms;
-}
-.container:hover .overlay {
-    opacity: 1;
-}
-.gameimage {
+.applybutton {
+    background-color: #e31c26;
+    padding: 20px;
+    margin: 20px auto;
     border-radius: 5px;
-    width: 100%;
-}
-#gameimage {
-    width: 49%;
-    display: inline-block;
-    margin-top: 10px;
-}
-#staffimage {
-    width: 100%;
+    transition: 200ms;
     display: block;
-    margin-top: 30px;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
 }
-@media (max-width: 1100px) {
-    #gameimage {
-        width: 100%;
-        margin-top: 30px;
-    }
+.applybutton:hover {
+    background-color: #8d1218;
+}
+#staff {
+    font-size: 20px;
 }
