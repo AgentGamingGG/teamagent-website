@@ -139,6 +139,9 @@ body {
         text-align: center;
         height: auto;
     }
+    #socials {
+        width: 100%;
+    }
 }
 @media (max-width: 600px) {
     #contact {
