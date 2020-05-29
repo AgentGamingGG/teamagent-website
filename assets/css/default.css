@@ -73,7 +73,7 @@ body {
     padding: 0px;
 }
 .bottomcontent {
-    width: 32%;
+    width: 30%;
     height: 400px;
     padding-left: 20px;
     display: inline-block;
@@ -100,9 +100,9 @@ body {
     font-size: 16px;
     color: white;
     transition: 200ms;
-    float: right;
     padding: 5px;
     margin: 8px;
+    float: inherit;
 }
 .fa:hover {
     color: #ff2c2c;
@@ -117,20 +117,9 @@ body {
     margin-left: calc(5% + 40px);
     margin-right: calc(6% + 40px); 
 }
-#socials a {
-   color: white;
-   transition: 100ms; 
-}
-#socials a:hover {
-    color: #ff2c2c;
 
-}
 /* Reactive Elements*/
-@media (max-width: 1660px) {
-    #socials {
-        display: none;
-    }
-}
+
 @media (max-width: 1000px) {
     #navdescrip {
         display: none;
@@ -143,6 +132,12 @@ body {
 @media (max-width: 730px) {
     #logonavbar {
         display: none;
+    }
+    .bottomcontent {
+        display: block;
+        margin: 40px auto;
+        text-align: center;
+        height: auto;
     }
 }
 @media (max-width: 600px) {
