@@ -117,7 +117,9 @@ body {
     margin-left: calc(5% + 40px);
     margin-right: calc(6% + 40px); 
 }
-
+#otherinfo {
+    margin-left: 40px;
+}
 /* Reactive Elements*/
 
 @media (max-width: 1000px) {
@@ -138,15 +140,17 @@ body {
         margin: 40px auto;
         text-align: center;
         height: auto;
+        width: 90%;
     }
     #socials {
         width: 100%;
     }
+    #otherinfo {
+        text-align: center;
+        margin: 0px;
+    }
 }
 @media (max-width: 600px) {
-    #contact {
-        display: none;
-    }
     .navlink {
         font-size: 20px;
     }
