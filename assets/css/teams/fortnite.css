@@ -36,11 +36,14 @@ body {
     margin: 10px;
 }
 .playerimage {
-    display: inline;
     height: 100%;
+    display: inline;
 }
 .playerinfo {
     display: inline;
+}
+.playerinfo a {
+    font-size: 27px;
 }
 .player {
     display: inline-block;
