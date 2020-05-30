@@ -37,7 +37,7 @@ body {
 }
 .playerimage {
     height: 100%;
-    display: inline;
+    display: inline-block;
 }
 .playerinfo {
     display: inline;
