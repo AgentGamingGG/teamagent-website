@@ -15,24 +15,41 @@ body {
     font-family: 'Bebas Neue', cursive;
     padding: 10px;
     font-size: 20px;
-    width: 70%;
+    width: 90%;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 40px;
+    vertical-align: middle;
 }
 .container {
     margin: 0px;
     padding: 0px;
     position: relative;
 }
-#newsheader {
+.newsheader {
     padding: 16px;
-    margin-top: 15px;
-    font-size: 27px;
+    margin-top: 5px;
+    font-size: 30px;
 }
-.innerarticle {
-    margin: 20px auto;
-    font-family: 'Lato', sans-serif;
-    line-height: 30px;
-    text-align: center;
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 300ms;
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+.gameimage {
+    border-radius: 5px;
+    width: 100%;
+}
+#gameimage {
+    width: 49%;
+    display: inline-block;
 }
