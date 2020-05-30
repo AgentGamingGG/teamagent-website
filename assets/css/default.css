@@ -89,26 +89,31 @@ body {
     padding: 0px;
 }
 .bottomcontent {
-    width: 30%;
+    width: 31.5%;
     height: 400px;
-    padding-left: 20px;
     display: inline-block;
     vertical-align: top;
 }
 .bottomcontent a {
     text-decoration: none;
     color: white;
+    text-align: center;
+    margin-left: 0px;
 }
 .header {
     padding: 30px;
     font-family: 'Bebas Neue', cursive;
     font-size: 26px;
+    text-align: center;
 }
 .bottomnavlink {
     font-size: 20px;
     justify-content: center;
     display: block;
     align-items: center;
+}
+.contactlinks {
+    text-align: center;
 }
 /* FA (Social Icons) */
 .fa {
@@ -120,12 +125,53 @@ body {
     margin: 8px;
     float: inherit;
 }
+
 .fa:hover {
     color: #ff2c2c;
 }
 #nav3bar {
     float: left;
     display: none;
+}
+.bottomnavsocials {
+    text-align: center;
+}
+.bottomcontent form {
+    width: 70%;
+    margin: 0 auto;
+}
+#subscribe-email {
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+    background-color: none;
+    background-image: url('../backdrops/standardbackdrop.png');
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 30px;
+    color: white;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+#sub-button {
+    margin: 20px auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.7);
+    background-color: none;
+    margin-left: 1px;
+}
+#sub-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
 }
 /* FA OVER*/
 #logonavbar {
@@ -134,7 +180,7 @@ body {
     margin-right: calc(6% + 40px); 
 }
 #otherinfo {
-    margin-left: 40px;
+    margin-left: 0px;
 }
 /* Reactive Elements*/
 
@@ -160,10 +206,6 @@ body {
     }
     #socials {
         width: 100%;
-    }
-    #otherinfo {
-        text-align: center;
-        margin: 0px;
     }
 }
 @media (max-width: 600px) {
