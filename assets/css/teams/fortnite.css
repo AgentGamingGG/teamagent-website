@@ -1,0 +1,39 @@
+body {
+    width: 100%;
+    background-image: repeating-linear-gradient(rgb(29, 29, 29),rgb(34, 0, 0));
+}
+.articlebox {
+    margin: 0 auto;
+    background-color: rgb(58, 58, 58);
+    background-image: url('../backdrops/standardbackdrop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    margin-top: 30px;
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+/* Social Icons */
+.fa {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: 200ms;
+    padding: 5px;
+    margin: 8px;
+    float: inherit;
+}
+
+.fa:hover {
+    color: #ff2c2c;
+}
