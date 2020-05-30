@@ -44,6 +44,8 @@ body {
 }
 .playerinfo a {
     font-size: 27px;
+    padding: 10px;
+    margin: 0px;
 }
 .player {
     display: inline-block;
