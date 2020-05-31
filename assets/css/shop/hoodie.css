@@ -12,6 +12,11 @@ body {
     border-radius: 10px;
     width: 90%;
 }
+.container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
 .imagepanel {
     margin: 1%;
     margin-left: 5%;
@@ -44,4 +49,83 @@ body {
 }
 .rowpic:hover {
     opacity: 1;
+}
+.descrip-panel {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 4%;
+    color: white;
+    padding-left: 5%;
+    padding-right: 15%;
+    font-family: 'Lato', sans-serif;
+}
+#title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+.sizeheader {
+    display: block;
+    text-decoration: none;
+}
+#sizeheaderleft {
+    float: left;
+}
+#sizeheaderright {
+    float: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#sizeheaderright::after {
+    float: auto;
+}
+.sizelist {
+    margin-top: 10px;
+    display: block;
+}
+.sizelist a {
+    border: solid;
+    border-radius: 1px;
+    border-color: rgb(138, 138, 138);
+    border-width: 1px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 3%;
+    margin-top: 10px;
+}
+.sizelist a:hover {
+    border-color: white;
+    transition: 200ms;
+}
+.buynow {
+    border: solid;
+    border-radius: 1px;
+    border-color: white;
+    border-width: 1px;
+    padding: 10px;
+    margin-top: 4%;
+    width: 100%;
+    padding-left: 40%;
+    padding-right: 40%;
+    color: white;
+    cursor: pointer;
+}
+table {
+    color: white;
+    text-emphasis: none;
+    text-decoration: none;
+}
+th {
+    padding: 10px;
+}
+@media (max-width: 1130px) {
+    .imagepanel {
+        width: 100%;
+        display: block;
+    }
+    .descrip-panel {
+        width: 100%;
+        display: block;
+        padding-bottom: 20px;
+    }
 }
