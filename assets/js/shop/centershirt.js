@@ -56,19 +56,19 @@ function xxlargesize() {
 function buynow() {
     if (selection >= 1) {
         if (selection == 1) {
-            window.open('https://agentgamingesports.com/checkout/centershirt/S');
+            window.open('https://agentgamingesports.com/checkout/centershirt/size/S');
         }
         if (selection == 2) {
-            window.open('https://agentgamingesports.com/checkout/centershirt/M');
+            window.open('https://agentgamingesports.com/checkout/centershirt/size/M');
         }
         if (selection == 3) {
-            window.open('https://agentgamingesports.com/checkout/centershirt/L');
+            window.open('https://agentgamingesports.com/checkout/centershirt/size/L');
         }
         if (selection == 4) {
-            window.open('https://agentgamingesports.com/checkout/centershirt/XL');
+            window.open('https://agentgamingesports.com/checkout/centershirt/size/XL');
         }
         if (selection == 5) {
-            window.open('https://agentgamingesports.com/checkout/centershirt/XXL');
+            window.open('https://agentgamingesports.com/checkout/centershirt/size/XXL');
         }
     } else {
         errormsg.style.display = "block";

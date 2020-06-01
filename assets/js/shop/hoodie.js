@@ -56,19 +56,19 @@ function xxlargesize() {
 function buynow() {
     if (selection >= 1) {
         if (selection == 1) {
-            window.open('https://agentgamingesports.com/checkout/hoodie/S');
+            window.open('https://agentgamingesports.com/checkout/hoodie/size/S');
         }
         if (selection == 2) {
-            window.open('https://agentgamingesports.com/checkout/hoodie/M');
+            window.open('https://agentgamingesports.com/checkout/hoodie/size/M');
         }
         if (selection == 3) {
-            window.open('https://agentgamingesports.com/checkout/hoodie/L');
+            window.open('https://agentgamingesports.com/checkout/hoodie/size/L');
         }
         if (selection == 4) {
-            window.open('https://agentgamingesports.com/checkout/hoodie/XL');
+            window.open('https://agentgamingesports.com/checkout/hoodie/size/XL');
         }
         if (selection == 5) {
-            window.open('https://agentgamingesports.com/checkout/hoodie/XXL');
+            window.open('https://agentgamingesports.com/checkout/hoodie/size/XXL');
         }
     } else {
         errormsg.style.display = "block";
