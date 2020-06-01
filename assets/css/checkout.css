@@ -70,3 +70,9 @@ body {
     .leftbox {display: block; width: 100%;}
     .rightbox {display: block; width: 70%; margin: 0 auto;}
 }
+@media (max-width: 750px) {
+    .ordertable th {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
