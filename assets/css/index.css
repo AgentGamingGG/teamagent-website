@@ -92,14 +92,6 @@ body {
     margin: 0 auto;
     padding: 15%;
 }
-#applyarticle {
-    background-image: url('../others/fortnite.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    max-width: 100%;
-}
 #mercharticle {
     background-image: url('../backdrops/apply.png');
     background-position: center;
@@ -190,6 +182,11 @@ body {
     }
     .mainarticletitlemini {
         font-size: 20px;
+    }
+}
+@media (max-width: 525px) {
+    #mercharticle {
+        background-attachment: initial;
     }
 }
 @media (max-width: 465px) {
