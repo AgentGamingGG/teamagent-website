@@ -100,6 +100,14 @@ body {
     background-attachment: fixed;
     max-width: 100%;
 }
+#mercharticle {
+    background-image: url('../backdrops/apply.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+}
 .mainarticletitle {
     color: white;
     font-family: 'Bebas Neue', cursive;
