@@ -230,4 +230,7 @@ body {
     #nav3bar {
         display: block;
     }
+    .socialnavbar {
+        display: none;
+    }
 }
