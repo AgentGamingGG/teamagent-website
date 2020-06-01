@@ -136,6 +136,23 @@ body {
 .applybutton:hover {
     background-color: #a1141b;
 }
+.shopbutton {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    background-color: #3131317c;
+    border-radius: 7px;
+    display: block;
+    width: 10%;
+    text-align: center;
+    transition: 200ms;
+    text-decoration: none;
+}
+.shopbutton:hover {
+    background-color: #505050;
+}
 /* Reactive Elements */
 @media (max-width: 1400px) {
     #gameimage {
