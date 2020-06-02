@@ -163,6 +163,12 @@ body {
     #teams {
         margin-bottom: 40px;
     }
+    .applybutton {
+        width: 70%;
+    }
+    .shopbutton {
+        width: 70%;
+    }
 }
 @media (max-width: 730px) {
     #twitterTimeline {
