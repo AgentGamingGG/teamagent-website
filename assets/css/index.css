@@ -191,9 +191,6 @@ body {
     }
 }
 @media (max-width: 525px) {
-    #mercharticle {
-        display: none;
-    }
 }
 @media (max-width: 465px) {
     .articletitle {
