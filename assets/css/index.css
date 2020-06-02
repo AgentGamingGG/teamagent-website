@@ -192,7 +192,10 @@ body {
 }
 @media (max-width: 525px) {
     #mercharticle {
-        background-attachment: initial;
+        display: none;
+    }
+    #shopmobile {
+        display: block;
     }
 }
 @media (max-width: 465px) {
