@@ -231,6 +231,6 @@ body {
         display: block;
     }
     .socialnavbar {
-        display: none;
+        display: block;
     }
 }
