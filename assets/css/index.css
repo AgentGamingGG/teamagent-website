@@ -197,7 +197,7 @@ body {
     #shopmobile {
         display: block;
         margin-top: 0px;
-    }
+    } 
 }
 @media (max-width: 465px) {
     .articletitle {
