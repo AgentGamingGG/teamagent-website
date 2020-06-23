@@ -145,6 +145,11 @@ body {
 .shopbutton:hover {
     background-color: #505050;
 }
+.youtubeembed {
+    display: block;
+    width: 100%;
+    margin: 30px;
+}
 /* Reactive Elements */
 @media (max-width: 1400px) {
     #gameimage {
