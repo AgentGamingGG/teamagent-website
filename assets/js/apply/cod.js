@@ -8,7 +8,7 @@ function followclick() {
 
 function followcheck() {
     if (followstart >= followneed) {
-        window.open('https://agentgamingesports.com/apply/cod')
+        window.open('https://agentgamingesports.com/apply/COD')
     } else {
         document.getElementById('error').style.display = 'block';
     }
