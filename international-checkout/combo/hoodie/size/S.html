@@ -1,0 +1,93 @@
+---
+layout: default
+title: M-Combo2Hoodie-Shop
+---
+<html>
+    <head>
+        <title>Checkout</title>
+        <link rel="stylesheet" href="../../../../assets/css/checkout.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="articlebox">
+            <div class="container">
+                <a class="newsheader" style="font-size: 50px;">Checkout</a>
+            </div>
+            <div class="leftbox">
+                <a class="newsheader">Cart</a>
+                <div class="row" style="padding: 7%;">
+                    <img src="../../../../assets/PNG/shop/combo/2hoodie/side.png" width="15%" height="auto" class="column" style="padding: 30px;" draggable="false">
+                    <span class="column" style="font-size: 25px;">1x <span>Small</span> Classic Agent Hoodie Combo</span>
+                </div>
+            </div>
+            <div class="rightbox">
+                <div class="container" style="padding: 15px;">
+                    <a class="newsheader" style="font-size: 30px;">Order Details</a>
+                </div>
+                <div class="container">
+                    <table class="ordertable">
+                        <tr>
+                            <th>Subtotal</th>
+                            <th>$74.99</th>
+                        </tr>
+                        <tr>
+                            <th>Shipping</th>
+                            <th>$15.00</th>
+                        </tr>
+                        <tr>
+                            <th>Tax</th>
+                            <th>Included with price</th>
+                        </tr>
+                        <tr>
+                            <th style="padding-top: 15px;">Total</th>
+                            <th style="padding-top: 15px;">$89.99</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="paypalsmartbuttons">
+                    <div id="paypal-button-container"></div>
+
+                    <!-- Include the PayPal JavaScript SDK -->
+                    <script src="https://www.paypal.com/sdk/js?client-id=AUAPEVwrY7twn9w8nuBRZ4DkBIFyYXcgQMaK3zhgzubN1_KEoJgM8S2dXjdciRQzkf8l58ZTwki20rvZ&currency=USD"></script>
+                
+                     <script>
+                        // Render the PayPal button into #paypal-button-container
+                        paypal.Buttons({
+                
+                            // Set up the transaction
+                            createOrder: function(data, actions) {
+                                return actions.order.create({
+                                    purchase_units: [{
+                                        amount: {
+                                            currency_code: "USD",
+                                            value: "74.99",
+                                            breakdown: {
+                                                item_total: {currency_code: "USD", value: "89.99"},
+                                            }
+                                        },
+                                        items: [{
+                                            name: "Combo2Hoodies-S-BLCK",
+                                            quantity: "1",
+                                            unit_amount: {currency_code: "USD", value: "89.99"}
+                                        }]
+                                    }],
+                                });
+                            },
+                
+                            // Finalize the transaction
+                            onApprove: function(data, actions) {
+                                return actions.order.capture().then(function(details) {
+                                    // Show a success message to the buyer
+                                    window.open('https://agentgamingesports.com/checkout/complete');
+                                });
+                            }
+                            }).render('#paypal-button-container');
+                    </script>
+                    <div><a style="font-family: 'Lato', sans-serif; text-decoration: underline; font-size: 12px; color: white;" href="https://agentgamingesports.com/returnpolicy" target="_blank">Return Policy</a></div>
+                    <div><a style="font-family: 'Lato', sans-serif; text-decoration: underline; font-size: 12px; color: white;" href="https://agentgamingesports.com/international-checkout/combo/hoodie/size/S" target="_blank">International Orders (+$15)</a></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
