@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: agentgamingesports.com
-Token: e63a1fedbfd230d61fb7e66c056777468fd7c1101a35b5c13f00a1e577101147
